@@ -1,0 +1,86 @@
+.download {
+    &__container {
+        padding: 114px 0;
+
+        @media (max-width:1280px) {
+            padding: 70px 0;
+            max-width: 984px;
+        }
+
+        @media (max-width:1024px) {
+            padding: 40px 20px;
+        }
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 65px;
+        text-align: center;
+        color: #000000;
+
+        @media (max-width:1280px) {
+            font-size: 24px;
+            line-height: 28px;
+        }
+
+        @media (max-width:1024px) {
+            font-size: 18px;
+            line-height: 21px;
+        }
+    }
+
+    &__subtitle {
+        margin: 5px 0 50px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+
+        @media (max-width:1280px) {
+            margin: 24px 0 42px;
+            font-size: 14px;
+            line-height: 16px;
+        }
+
+        @media (max-width:1024px) {
+            margin: 24px 0 16px;
+        }
+    }
+
+    &__button {
+        width: 400px;
+        margin: 0 auto;
+
+        @media (max-width:1024px) {
+            width: auto;
+        }
+
+
+        &>a {
+            display: block;
+            width: 100%;
+            padding: 24px 0;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            text-transform: uppercase;
+            background-color: #FF4343;
+            color: #FFFFFF;
+            transition: all 0.5s ease-in-out;
+
+            @media (max-width:1280px) {
+                font-size: 18px;
+                line-height: 21px;
+            }
+
+            &:hover {
+                color: #FF4343;
+                background: #fedbdb;
+            }
+        }
+    }
+}
